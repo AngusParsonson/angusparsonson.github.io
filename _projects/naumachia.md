@@ -11,4 +11,3 @@ original music soundtrack.<br/><img src='/images/naumachia.png'>"
 collection: projects
 ---
 
-Hello this is some example text for the project.
