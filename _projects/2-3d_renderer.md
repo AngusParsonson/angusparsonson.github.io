@@ -9,7 +9,7 @@ Using SDL and GLM libraries in C++, I built a 3D raytrace, rasterise and wirefra
 </div>
 
 ## Short Example Ident
-<video width="640" height="480" controls="controls" playsinline>
+<video width="640" height="480" controls="controls" muted playsinline>
 <source src="/images/projects/3d_renderer/raytrace.mp4" type="video/mp4">
 <source src="/images/projects/3d_renderer/raytrace.webm" type="video/webm">
 <source src="/images/projects/3d_renderer/raytrace.ogv" type="video/ogg">
