@@ -11,4 +11,11 @@ Using SDL and GLM libraries in C++, I built a 3D raytrace, rasterise and wirefra
 ## Short Example Ident
 <video width="640" height="480" controls="controls">
 <source src="/images/projects/3d_renderer/raytrace.mp4" type="video/mp4">
+<source src="/images/projects/3d_renderer/raytrace.webm" type="video/webm">
+<source src="/images/projects/3d_renderer/raytrace.ogv" type="video/ogg">
 </video>
+
+<p> <strong>Download Video:</strong>
+    Closed Format:  <a href="__VIDEO__.MP4">"MP4"</a>
+    Open Format:    <a href="__VIDEO__.OGV">"OGG"</a>
+</p>
