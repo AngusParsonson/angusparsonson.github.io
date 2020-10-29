@@ -16,11 +16,11 @@ The kernel was built to run simple programs concurrently using time slicing. A g
 
 <img src='/images/projects/ARM_kernel/pcb.jpg' width=250>
 
-So each process had a **process state** (running, waiting etc.), a **PID** (process ID and parent process ID), registers (for memory) and a program counter (to restore swapped process out of memory i.e. remember where a program was for context switching).
+So each process had a **process state** (running, waiting etc.), a **PID** (process ID and parent process ID), **registers** (for memory) and a **program counter** (to restore swapped process out of memory i.e. remember what position we were in the program for context switching).
 
 The priority age-based scheduler ensured all current programs would be run based on their priority and how long it had been since they last ran. The priority of a program could be changed by the user via a **nice** system call. The basic algorithm worked as follows: 
 - After every context switch:
-    1. The currently running program have its age decreased to zero.
+    1. The currently running program has its age decreased to zero.
     2. All other programs have their ages incremented by their priority (defined a default value at startup or a custom value by the user at runtime).
     3. The program with the highest age is then ran until the next context switch.
 
