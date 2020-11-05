@@ -41,7 +41,7 @@ Gameplay consists of three dynamic elements: the two players, enemyAI actions an
 
 Map events were the least network intensive of the three elements: after broadcasting that the event is happening in a single flag, no other detail must be passed through the network- meaning a simple, low-latency solution.
 
-Networking player actions played out as being the most network intensive of all networking action. This was necessary as any player action must be instantly communicated to the other to create a seamless multiplayer experience. We steamed all player actions using network transforms and networked variables. These streamed at roughly the same rate as screen refresh creating the illusion of instant response times.
+Networking player actions played out as being the most network intensive of all networking actions. This was necessary as any player action must be instantly communicated to the other to create a seamless multiplayer experience. We streamed all player actions using network transforms and networked variables. These streamed at roughly the same rate as screen refresh creating the illusion of instant response times.
 
 Enemy movements were the most complicated part of networking. The obvious option was to stream the AI actions in the same way the player actions were streamed. However as there were many enemies this would cause a network overload. The solution was to create a state machine system where only changes in state were communicated across the network rather than streaming frame by frame positions and actions. This was possible as enemy action scripts/ai was determined by player positions and actions which are already available.
 
