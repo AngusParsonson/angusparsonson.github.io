@@ -76,7 +76,7 @@ analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-
+        google_analytics : G-7HN5N37S5P
 
 # Site Author
 author:
