@@ -1,6 +1,6 @@
 ---
 title: "Red Herring - Phishing Website Generator"
-excerpt: "Together with two colleagues, completed a project which generates an exact replica of a website after a user inputs a url.The UI also contains a browser to compare to the real website and allows the user to edit the HTML to include a maliciousdownload  or  to  collect  login  details  from  a  victim.   We  were  able  to  present  to  various  industry  partners  and  to  otherfellow students at the end of the CyberFirst academy.  The GUI was coded in Java using JavaFX and FXML (MVC designpattern), the back end in Python using BeautifulSoup.<br/><img src='/images/projects/red_herring/demo_2.png' width=500>"
+excerpt: "Together with two colleagues, completed a project which generates an exact replica of a website after a user inputs a url.The UI also contains a browser to compare to the real website and allows the user to edit the HTML to include a malicious download  or  to  collect  login  details  from  a  victim.   We  were  able  to  present  to  various  industry  partners  and  to  other fellow students at the end of the CyberFirst academy.  The GUI was coded in Java using JavaFX and FXML (MVC designpattern), the back end in Python using BeautifulSoup.<br/><img src='/images/projects/red_herring/demo_2.png' width=500>"
 collection: projects
 ---
 
